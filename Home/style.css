@@ -60,6 +60,11 @@ h2 {
 
 /* carrossel */
 
+.section01 {
+    border: solid 1px greenyellow;
+    width: 100vw;
+    height: 60vh;
+}
 .imagem01 {
     position: absolute;
     width: 608px;
@@ -79,4 +84,111 @@ h2 {
     bottom: 58%;
     right: 31.5%;
 }
+
+/* anuncios */
+
+.section02 {
+    
+    border: solid 1px red;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;       
+    
+}
+
+.quadro01 {
+    background-color: #EEEEEE;
+    width: 256px;
+    height: 242px;
+    position: relative;
+    right: 6.5%;
+    
+}
+
+h3 {
+    color: #888888;
+    font-family: "Ropa Sans";
+    font-size: 25px;
+    Width: 86px;
+    Height: 33px;
+}
+
+h4 {
+    color: white;
+    font-family: "Ropa Sans";
+    font-size: 20px;
+    width: 48px;
+    height: 19px;
+}
+
+p {
+    color: #555555;
+    font-family: "Ropa Sans";
+    font-size: 10px;
+    width: 231px;
+    height: 44px;
+    text-align:justify;
+
+}
+
+#preço01 {
+    position: relative;
+    left: 5%
+
+}
+
+#new {
+    position: relative;
+    left: 80%;
+    bottom: 23%
+
+}
+
+#marca-texto-verde {
+    position: relative;
+    bottom: 12%;
+    left: 76%;
+}
+
+#paragrafo01 {
+    position: relative;
+    left: 5%;
+    bottom: 15%;
+
+}
+
+.quadro02 {
+    background-color: #EEEEEE;
+    width: 256px;
+    height: 242px;
+    position: relative;
+    left: 0.5%;
+}
+
+#preço02 {
+    position: relative;
+    left: 5%;
+}
+
+#sale {
+    position: relative;
+    left: 80%;
+    bottom: 23%
+
+}
+
+#marca-texto-amarelo {
+    position: relative;
+    bottom: 12%;
+    left: 76%;
+}
+
+#paragrafo02 {
+    position: relative;
+    left: 5%;
+    bottom: 15%;
+}
+
 
